@@ -1,5 +1,5 @@
-import * as anchor from '@project-serum/anchor';
-declare module '@project-serum/anchor' {
+import * as anchor from '@coral-xyz/anchor';
+declare module '@coral-xyz/anchor' {
   export const workspace: any;
-  export const Wallet: import('@project-serum/anchor/dist/cjs/nodewallet').default;
+  export const Wallet: import('@coral-xyz/anchor/dist/cjs/nodewallet').default;
 }
